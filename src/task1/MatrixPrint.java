@@ -11,7 +11,7 @@ public class MatrixPrint {
             if (i != 0 && i % 5 == 0) {
                 System.out.println();
             }
-            System.out.print(matrix[i]);
+            System.out.print(matrix[i] + "\t");
 
 
         }
